@@ -32,8 +32,7 @@ Window {
         }
 
         onExited: {
-            mouse.accepted = false;
-            console.log('This happens when the mouse is moved out, not ');
+            console.log('This should happen twice, but it only happens once.');
         }
     }
 }
